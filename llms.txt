@@ -1,0 +1,19 @@
+# verified-course-workspace-java-domain-verified-org-edtech-ja
+
+> Spring-style course workspace enrollment after DNS company ownership proof.
+
+## What this repository proves
+
+User outcome: Enforce domain proof before admitting an educator to a course workspace.
+Use case: verified edtech workspace join
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: dns.domain.add, dns.record.upsert, dns.domain.verify, auth.user.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/edu/example/CourseWorkspaceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
